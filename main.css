@@ -256,6 +256,7 @@ span{
     top : 500px;
     height: 900px;
     flex-direction: column;
+    flex: 1;
 
 }
 .Logo_infineon{
@@ -363,19 +364,21 @@ footer{
 
 .map{
     position: relative;
+    top:35em;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 20em;
+    flex: 1;
+
 }
 .Map{
     position: relative;
     font-size: 3.25em;
-    top: 15em;
 }
 .mappng{
     position: relative;
-    top: 895px;
+    top:4em;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -387,9 +390,13 @@ footer{
 }
 .webvowl{
     position: relative;
-    bottom:-1000px;
+    top : 20em;
     border: 1px solid #202020;
     border-radius: 25px;
+}
+.infosss{
+    display: flex;
+    flex-direction: column;
 }
 .BTH{
     position: relative;
@@ -418,6 +425,7 @@ footer{
 }
 .pindex{
     font-size: 153%;
+    position: relative;
 
 }
 .Bintro li::before {
